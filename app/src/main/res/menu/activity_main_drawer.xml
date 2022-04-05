@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_text_view"
+            android:icon="@drawable/ic_menu_text_view"
+            android:title="@string/menu_text_view"/>
+        <item
+            android:id="@+id/nav_button"
+            android:icon="@drawable/ic_menu_button"
+            android:title="@string/menu_button"/>
+        <item
+            android:id="@+id/nav_edit_text"
+            android:icon="@drawable/ic_menu_edit_text"
+            android:title="@string/menu_edit_text"/>
+        <item
+            android:id="@+id/nav_check_box"
+            android:icon="@drawable/ic_menu_check_box"
+            android:title="@string/menu_check_box"/>
+        <item
+            android:id="@+id/nav_radio_button"
+            android:icon="@drawable/ic_menu_radio_button"
+            android:title="@string/menu_radio_button"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery"/>
+        <item
+            android:id="@+id/nav_spinner"
+            android:icon="@drawable/ic_menu_spinner"
+            android:title="@string/menu_spinner"/>
+        <item
+            android:id="@+id/nav_tab_widget"
+            android:icon="@drawable/ic_menu_tab_widget"
+            android:title="@string/menu_tab_widget"/>
+    </group>
+</menu>

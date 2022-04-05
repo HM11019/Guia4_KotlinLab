@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_text_view">
+    <!-- app:startDestination="@+id/nav_home"> -->
+
+    <fragment
+        android:id="@+id/nav_text_view"
+        android:name="com.example.guia4_kotlinlab.ui.text_view.TextViewFragment"
+        android:label="@string/menu_text_view"
+        tools:layout="@layout/text_view_fragment" />
+    <fragment
+        android:id="@+id/nav_button"
+        android:name="com.example.guia4_kotlinlab.ui.button.ButtonFragment"
+        android:label="@string/menu_button"
+        tools:layout="@layout/button_fragment" />
+    <fragment
+        android:id="@+id/nav_edit_text"
+        android:name="com.example.guia4_kotlinlab.ui.edit_text.EditTextFragment"
+        android:label="@string/menu_edit_text"
+        tools:layout="@layout/edit_text_fragment" />
+    <fragment
+        android:id="@+id/nav_check_box"
+        android:name="com.example.guia4_kotlinlab.ui.check_box.CheckBoxFragment"
+        android:label="@string/menu_check_box"
+        tools:layout="@layout/check_box_fragment" />
+    <fragment
+        android:id="@+id/nav_radio_button"
+        android:name="com.example.guia4_kotlinlab.ui.radio_button.RadioButtonFragment"
+        android:label="@string/menu_radio_button"
+        tools:layout="@layout/radio_button_fragment" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.guia4_kotlinlab.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_spinner"
+        android:name="com.example.guia4_kotlinlab.ui.spinner.SpinnerFragment"
+        android:label="@string/menu_spinner"
+        tools:layout="@layout/spinner_fragment" />
+    <fragment
+        android:id="@+id/nav_tab_widget"
+        android:name="com.example.guia4_kotlinlab.ui.tab_widget.TabWidgetFragment"
+        android:label="@string/menu_tab_widget"
+        tools:layout="@layout/tab_widget_fragment" />
+
+    <!-- Posiblemente este de mas -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.guia4_kotlinlab.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.guia4_kotlinlab.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+
+</navigation>
